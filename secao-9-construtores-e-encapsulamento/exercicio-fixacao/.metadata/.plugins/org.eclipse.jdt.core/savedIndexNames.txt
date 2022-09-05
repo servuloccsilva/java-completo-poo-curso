@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\temp\ws-eclipse\java-completo-poo-curso\secao-9-construtores-e-encapsulamento\exercicio-fixacao\.metadata\.plugins\org.eclipse.jdt.core
+3678062688.index
+2014949329.index
+1865797976.index
