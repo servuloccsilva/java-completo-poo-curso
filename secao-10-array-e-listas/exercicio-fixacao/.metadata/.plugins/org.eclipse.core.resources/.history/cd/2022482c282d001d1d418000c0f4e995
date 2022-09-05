@@ -1,0 +1,57 @@
+package Application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import Entities.Rent;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Rent[] rent = new Rent[10];
+		
+		System.out.println("How many rooms will be rented?");
+		int n = sc.nextInt();
+		
+		for(int i = 0; i < n; i++) {
+			System.out.println("Rent #" + i + ":");
+			
+			System.out.println("Name:");
+			sc.next();
+			String name = sc.next();
+			
+			System.out.println("Email:");
+			String email = sc.next();
+			
+			System.out.println("Room:");
+			int roomNumber = sc.nextInt();
+			
+			rent[roomNumber] = new Rent(name, email, roomNumber);			
+		}
+		
+		System.out.println("Busy Rooms:");
+		
+		for(int i = 0; i < n; i++) {
+			if(rent[i] != null) {
+				System.out.println(i + ": " + rent[i].getName() + ", " + rent[i].getEmail());
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

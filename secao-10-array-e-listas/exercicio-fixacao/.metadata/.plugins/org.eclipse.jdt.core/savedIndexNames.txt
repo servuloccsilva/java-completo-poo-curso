@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\temp\ws-eclipse\java-completo-poo-curso\secao-10-array-e-listas\exercicio-fixacao\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2718286005.index
+2014949329.index
